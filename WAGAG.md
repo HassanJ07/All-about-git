@@ -23,3 +23,10 @@
 - git commit -a
 - git add
 - git master
+- git remote -v
+- git checkout <branch>
+- git branch <name>
+
+
+
+this is the try branch
