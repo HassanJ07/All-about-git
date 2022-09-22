@@ -17,4 +17,8 @@
 - Push & pull request
 - Forks
 - issues
-- 
+### Commands on git 
+- git init
+- git push origin main
+- git commit -a
+- git add
