@@ -22,3 +22,4 @@
 - git push origin main
 - git commit -a
 - git add
+- git master
