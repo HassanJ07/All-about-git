@@ -25,7 +25,7 @@
 - git master
 - git remote -v
 - git checkout <branch>
-- 
+- git branch <name>
 
 
 
