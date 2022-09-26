@@ -5,9 +5,9 @@ body{
 
     
 }
-h1 {
-    text-align: center;
+header>h1{
     background-color: yellow;
+    text-align: center;
 }
 
 p, ul, li {
@@ -35,6 +35,7 @@ table, th, td, tr{
 q {
     
     font-size: 160%;
+    font-style: italic;
     background-color: rgba(199, 189, 189, 0.821);
     width: 50%;
     height: auto;
@@ -55,4 +56,18 @@ q {
     background-size: cover;
     padding-bottom: 300px;
     position: ;
+}
+.villager{
+    border-left-color: rgb(16, 5, 115);
+}
+.farmer{
+    border-left-color: green;
+}
+.good{
+    color: green;
+    text-transform: capitalize;
+}
+.bad{
+    color: red;
+    text-transform: capitalize;
 }
