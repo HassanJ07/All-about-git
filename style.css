@@ -1,10 +1,13 @@
 body{
     max-width: 90%;
     margin: auto;
-    background-color: rgb(136, 224, 153);
+    background-color: rgba(255, 255, 255, 0.348);
 
 
     
+}
+img{
+    width: 80%;
 }
 header>h1{
     background-color: yellow;
@@ -39,7 +42,7 @@ q {
     
     font-size: 160%;
     font-style: italic;
-    background-color: rgba(199, 189, 189, 0.821);
+    background-color: rgba(232, 216, 216, 0.887);
     width: 50%;
     height: auto;
     max-width:390px;
@@ -73,6 +76,7 @@ q {
 .bad{
     color: red;
     text-transform: capitalize;
+    color: red;
 }
 
 .grey{
@@ -90,13 +94,7 @@ q {
 }
 
 
-.flex{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    
-    
-}
+
 .image{
   width: 20px;
 }
@@ -104,17 +102,33 @@ q {
     padding: 50px;
     margin: 30px;
     border: 2px solid rgba(57, 90, 4, 0.571);
-    box-shadow: 2px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 #flex2{
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 #flex3{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 #table{
     width: 40%;
     height: 30%;
+}
+
+#footer{
+    background-color: rgb(86, 115, 88);
+}
+.para{
+    position: relative;
+    right: 3px;
 }
